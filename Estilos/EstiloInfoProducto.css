@@ -8,7 +8,7 @@ body{
     margin: 0 auto;
     max-width: 1415px;
     font-family:'Roboto Condensed', sans-serif;
-    background-color: #a3a6ab;
+    background-color: #E5E7EA;
 }
 img{
     max-width: 100%;
@@ -60,7 +60,7 @@ input{
     left: 1280px;
 }
 
-/*Carusel*/
+/*Carrusel*/
 #carouselExampleIndicators{
     height: 650px;
     width: 650px;
@@ -120,12 +120,15 @@ img{
     padding: 15px 50px;
     cursor: pointer;
 }
-.comprar-carro button:hover{
+.carro:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 }
 .carro{
     background-color: #7092BE;
     border-radius: 5px;
+}
+.comprar:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 }
 .comprar{
     background-color: #ffbc49;
